@@ -1,0 +1,163 @@
+/* CSS HEX
+--timberwolf: #dad7cdff;
+--laurel-green: #a3b18aff;
+--fern-green: #588157ff;
+--hunter-green: #3a5a40ff;
+--brunswick-green: #344e41ff; */
+
+@font-face{
+ font-family:pdx; 
+ src: url(font/Sofia_Sans/SofiaSans-VariableFont_wght.ttf);
+}
+body{
+    font-family: pdx;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(88,129,87,1) 20%, rgba(163,177,138,1) 54%, rgba(218,215,205,1) 83%);
+    color: #344e41ff;
+}
+#main{
+    height: 1300px;
+    width: 100%;   
+}
+.hero{
+    width: auto;
+    height: 33%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background: url(images/Portland-stag.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: #dad7cdff solid 5px;
+    border-radius: 50px;
+    box-shadow: #344e41ff 5px 2px 5px;
+    margin-bottom: 20px
+ 
+}
+#visit-pdx{
+    background: #dad7cdff;
+    padding: 5px 10px 5px 10px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    border-radius: 20px;
+    box-shadow: #344e41ff 5px 2px 5px;
+    color: #344e41ff;
+    text-shadow:rgb(234, 244, 239) 1px 1px 1px; 
+}
+#description{
+  background: #344e41ff;  
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+  box-shadow:#dad7cdff 5px 2px 5px;
+  color:  #dad7cdff;
+  text-shadow:rgb(13, 14, 14) 1px 1px 1px;
+}
+.things-style{
+    margin-right: 8px;
+    margin-bottom: 8%;
+    margin-left: 8px;
+    height: 75%;
+    width:33%;
+    border-radius: 10px;
+    background-color: hsla(131,22%,29%,0.25);
+    box-shadow: #344e41ff 2px 3px 5px;
+    padding-top: 10px; 
+}
+ .jelly{
+    margin-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+ }
+.activites{
+    background: #dad7cdff;
+    border-radius: 50px;
+    border: #344e41ff solid 5px;
+    box-shadow: #344e41ff 5px 2px 5px;  
+    width: auto;
+    height: 33%;
+    padding: 0px 20px 20px 20px;
+}
+.top-3-activities{
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;  
+}
+#top-3{
+    text-decoration-line: underline;   
+    text-decoration-style: dotted;
+    text-shadow:rgb(234, 244, 239) 1px 1px 1px;
+   
+}
+#bar{
+    height: 175px;
+    width: 175px;
+    border: #344e41ff solid 5px;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position:left;
+}
+#food-cart{
+    height: 175px;
+    width: 175px;
+    border: #344e41ff solid 5px;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position:initial;
+}
+#hike{
+    height: 175px;
+    width: 175px;
+    border: #344e41ff solid 5px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+#meet{
+    text-decoration-line: underline;   
+    text-decoration-style: dotted;
+    text-shadow:rgb(234, 244, 239) 1px 1px 1px;
+  
+}
+.jelly-guide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.guide{
+    border: #344e41ff solid 5px;
+    background: #dad7cdff;
+    border-radius: 50px;
+    box-shadow: #344e41ff 5px 2px 5px;  
+    width: auto;
+    height: 28%;
+    margin-top: 20px 
+}
+.guide-cont{
+    border-radius: 20px;
+    background-color: hsla(131,22%,29%,0.25);
+    box-shadow: #344e41ff 2px 3px 5px;
+    width: 95%;
+    height: 70%;
+    margin: 20px 20px 20px 20px;
+    padding: 1px 1px 1px 1px;
+}
+#js-pic{
+    height: 175px;
+    width: 175px;
+    border: #344e41ff solid 5px;
+    border-radius: 50%;
+    margin: 35px 20px 35px 20px;
+    object-fit: cover;
+    object-position:top;
+
+ 
+} 
+#meet-description{
+    margin-left: 25px;
+}
+
